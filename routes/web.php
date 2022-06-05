@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -43,3 +44,5 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get(LaravelLocalization::transRoute('routes.funding-sources'), [PagesController::class, 'fundingSources'])->name('funding-sources');
     Route::get(LaravelLocalization::transRoute('routes.contact'), [PagesController::class, 'contact'])->name('contact');
 });
+
+Route::post('/send-email', [ContactController::class, 'send'])->name('send');

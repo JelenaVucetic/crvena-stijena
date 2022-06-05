@@ -14,6 +14,7 @@
                                     <p>{{ __('archaeological-excavations-paragraph-one') }}</p>
                                     <p>{{ __("archaeological-excavations-read-more") }}</p>
                                     <p>{{ __("archaeological-excavations-paragraph-two") }}</p>
+                                    <p>{{ __("archaeological-excavations-paragraph-three") }}</p>
                                     <div class="post-images">
                                         <div class="row clearfix">
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
