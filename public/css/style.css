@@ -5981,3 +5981,15 @@ img {
     color: #ffffff !important;
     background: #d1af78;
 }
+
+.language-link a:hover {
+    color: #d1af78;
+}
+
+.language-link .active {
+    color: #d1af78;
+}
+
+.language-link a {
+    color: white;
+}

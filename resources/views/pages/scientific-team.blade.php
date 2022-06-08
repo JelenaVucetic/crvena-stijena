@@ -1,7 +1,117 @@
 @extends('layout')
 @section('content')
+
+    <!-- Exhibitions Section -->
+    <section class="exhibitions-section">
+        <div class="auto-container">
+            <div class="sec-title-two text-center">
+                <h2>{{ __("scientific team") }}</h2>
+            </div>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>Director:</h4>
+                                    <span class="date" style="font-size: 20px">Dr. Gilbert Tostevin</span>
+                                    <p>
+                                        Associate Professor <br>
+                                        Department of Anthropology <br>
+                                        University of Minnesota <br>
+                                        Minneapolis, MN, USA <br>
+                                        toste003@umn.edu
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4> Co-Director:</h4>
+                                    <span class="date" style="font-size: 20px">Dr. Gilliane Monnier</span>
+                                    <p>
+                                        Associate Professor <br>
+                                        Department of Anthropology <br>
+                                        University of Minnesota <br>
+                                        Minneapolis, MN, USA <br>
+                                        monni003@umn.edu
+                                    </p>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>Co-Director:</h4>
+                                    <span class="date" style="font-size: 20px">Mr. Goran Pajovic</span>
+                                    <p>
+                                        Curator of Archaeology<br>
+                                        National Museum<br>
+                                        Cetinje, Montenegro<br>
+                                        monni003@umn.edu<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                  {{--  <h4> Co-Director:</h4>
+                                    <span class="date" style="font-size: 20px">Dr. Gilliane Monnier</span>
+                                    <p>
+                                        Associate Professor <br>
+                                        Department of Anthropology <br>
+                                        University of Minnesota <br>
+                                        Minneapolis, MN, USA <br>
+                                        monni003@umn.edu
+                                    </p>    --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Exhibitions Section -->
+
+
     <!-- Testimonial Section -->
-    <section class="testimonial-section style-two">
+   {{-- <section class="testimonial-section style-two">
         <div class="auto-container">
             <h3>Scientific team</h3>
             <div class="testimonial-carousel owl-carousel owl-theme">
@@ -147,6 +257,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
     <!-- End Testimonial Section -->
 @endsection

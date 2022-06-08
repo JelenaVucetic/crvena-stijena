@@ -13,7 +13,7 @@
             @csrf
             <div class="row clearfix">
                 <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-                    <input type="text" name="name" placeholder="Name" required value="{{old('name')}}">
+                    <input type="text" name="name" placeholder="{{ __("name") }}" required value="{{old('name')}}">
                     @error('name')
                     <span class="invalid-feedback" role="alert">
                          <strong>{{ $message }}</strong>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                    <textarea name="message" placeholder="Leave a Message...">{{old('message')}}</textarea>
+                    <textarea name="message" placeholder="{{ __("leave a message") }}">{{old('message')}}</textarea>
                     @error('message')
                     <span class="invalid-feedback" role="alert">
                          <strong>{{ $message }}</strong>
@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                    <button type="submit" class="theme-btn btn-style-two">Send Message</button>
+                    <button type="submit" class="theme-btn btn-style-two">{{ __("send") }}</button>
                 </div>
             </div>
         </form>

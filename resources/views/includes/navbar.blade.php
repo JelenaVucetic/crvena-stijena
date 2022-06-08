@@ -4,9 +4,10 @@
         <div class="auto-container">
             <ul class="lang-list">
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                    <li>
-                        <a rel="alternate" hreflang="{{ $localeCode }}"
-                           href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                    <li class="language-link">
+                        <a rel="alternate" hreflang="{{ $localeCode }} "
+                            class = "{{(LaravelLocalization::getCurrentLocaleName() == $properties['name'] ? 'active' : '')}}"
+                            href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
                             {{ $properties['name'] }}
                         </a>
                     </li>
