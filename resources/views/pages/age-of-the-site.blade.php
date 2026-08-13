@@ -16,14 +16,14 @@
                                     <div class="post-images">
                                         <div class="row clearfix">
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
-                                                <a href="{{asset("images/resource/post-image-1.jpg")}}"
+                                                <a href="{{asset("images/resource/Age of Site 20170530_103828.jpg")}}"
                                                    class="lightbox-image" data-fancybox="Gallery"><img
-                                                        src="{{asset("images/resource/post-image-1.jpg")}}" alt=" "></a>
+                                                        src="{{asset("images/resource/Age of Site 20170530_103828.jpg")}}" alt=" "></a>
                                             </div>
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
-                                                <a href="{{asset("images/resource/post-image-2.jpg")}}"
+                                                <a href="{{asset("images/resource/Age of Site Dangoor Lab2-min.jpg")}}"
                                                    class="lightbox-image" data-fancybox="Gallery"><img
-                                                        src="{{asset("images/resource/post-image-2.jpg")}}" alt=" "></a>
+                                                        src="{{asset("images/resource/Age of Site Dangoor Lab2-min.jpg")}}" alt=" "></a>
                                             </div>
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
                                                 <a href="{{asset("images/resource/post-image-3.jpg")}}"

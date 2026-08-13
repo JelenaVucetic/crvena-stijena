@@ -17,19 +17,19 @@
                                     <div class="post-images">
                                         <div class="row clearfix">
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
-                                                <a href="{{asset("images/resource/post-image-1.jpg")}}"
+                                                <a href="{{asset("images/resource/Feldmaus_Microtus_arvalis.jpg")}}"
                                                    class="lightbox-image" data-fancybox="Gallery"><img
-                                                        src="{{asset("images/resource/post-image-1.jpg")}}" alt=" "></a>
+                                                        src="{{asset("images/resource/Feldmaus_Microtus_arvalis.jpg")}}" alt=" "></a>
                                             </div>
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
-                                                <a href="{{asset("images/resource/post-image-2.jpg")}}"
+                                                <a href="{{asset("images/resource/microtus.jpg")}}"
                                                    class="lightbox-image" data-fancybox="Gallery"><img
-                                                        src="{{asset("images/resource/post-image-2.jpg")}}" alt=" "></a>
+                                                        src="{{asset("images/resource/microtus.jpg")}}" alt=" "></a>
                                             </div>
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
-                                                <a href="{{asset("images/resource/post-image-3.jpg")}}"
+                                                <a href="{{asset("images/resource/Microtus_nivalis.jpg")}}"
                                                    class="lightbox-image" data-fancybox="Gallery"><img
-                                                        src="{{asset("images/resource/post-image-3.jpg")}}" alt=" "></a>
+                                                        src="{{asset("images/resource/Microtus_nivalis.jpg")}}" alt=" "></a>
                                             </div>
                                         </div>
                                     </div>

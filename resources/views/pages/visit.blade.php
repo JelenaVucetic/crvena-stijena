@@ -23,7 +23,7 @@
                 <!--Sidebar Side-->
                 <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <aside class="sidebar default-sidebar">
-                        <img src="{{asset('images/resource/event-1.jpg')}}" alt="">
+                        <img src="{{asset('images/resource/visit-side.jpg')}}" alt="">
                     </aside>
                 </div>
             </div>
