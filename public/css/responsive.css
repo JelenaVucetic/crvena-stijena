@@ -958,5 +958,8 @@
 		margin-left: 0;
 	}
 
+    .sidebar-side {
+        margin-top: -70px;
+    }
 
 }

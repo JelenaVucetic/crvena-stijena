@@ -50,7 +50,7 @@
         @include('includes.header-publication')
         @elseif((Route::currentRouteName() == 'village') || (Route::currentRouteName() == 'monastery'))
         @include('includes.header-petrovici')
-        @elseif((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'finding-sources'))
+        @elseif((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'funding-sources'))
         @include('includes.header-about-us')
     @else
         @include('includes.header-contact')

@@ -5994,3 +5994,9 @@ img {
     color: white;
 }
 
+.caption {
+    font-style: italic;
+    font-size: 11px !important;
+    line-height: 15px!important;
+    padding-top: 10px;
+}

@@ -2,6 +2,7 @@
     <!-- Main Box -->
     <div class="header-lower">
         <div class="auto-container">
+            <h1 style="color: white">{{Route::currentRouteName() }}</h1>
             <ul class="lang-list">
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                     <li class="language-link">
@@ -128,7 +129,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="{{ ((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'finding-sources')) ? 'current dropdown' : 'dropdown' }}">
+                                <li class="{{ ((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'funding-sources')) ? 'current dropdown' : 'dropdown' }}">
                                     <a href="#">{{ __('about us') }}</a>
                                     <ul>
                                         <li class="{{ (Route::currentRouteName() == 'scientific-team') ? 'active-link' : ''}}">
@@ -216,25 +217,31 @@
                                                 || (Route::currentRouteName() == 'geoarchaeology')) ? 'current dropdown' : 'dropdown' }}">
                                 <a href="#">{{ __('current research') }}</a>
                                 <ul>
-                                    <li class="{{ (Route::currentRouteName() == 'goals') ? 'active-link' : ''}}">
+                                    <li @class(['active-link' => Route::currentRouteName() == 'goals'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('goals') }}">{{ __('goals') }}</a>
                                     </li>
-                                    <li class="{{ (Route::currentRouteName() == 'documentation') ? 'active-link' : ''}}">
+
+                                    <li @class(['active-link' => Route::currentRouteName() == 'documentation'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('documentation') }}">{{ __('documentation of the site') }}</a>
                                     </li>
-                                    <li class="{{ (Route::currentRouteName() == 'neanderthal-fire-use') ? 'active-link' : ''}}">
+
+                                    <li @class(['active-link' => Route::currentRouteName() == 'neanderthal-fire-use'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('neanderthal-fire-use') }}">{{ __('neanderthal fire use') }}</a>
                                     </li>
-                                    <li class="{{ (Route::currentRouteName() == 'neanderthal-lithic-technology') ? 'active-link' : ''}}">
+
+                                    <li @class(['active-link' => Route::currentRouteName() == 'neanderthal-lithic-technology'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('neanderthal-lithic-technology') }}">{{ __('neanderthal lithic technology') }}</a>
                                     </li>
-                                    <li class="{{ (Route::currentRouteName() == 'hunting-and-meat-consumption') ? 'active-link' : ''}}">
+
+                                    <li @class(['active-link' => Route::currentRouteName() == 'hunting-and-meat-consumption'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('hunting-and-meat-consumption') }}">{{ __('hunting and meat consumption') }}</a>
                                     </li>
-                                    <li class="{{ (Route::currentRouteName() == 'paleoenvironmental-reconstruction') ? 'active-link' : ''}}">
+
+                                    <li @class(['active-link' => Route::currentRouteName() == 'paleoenvironmental-reconstruction'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('paleoenvironmental-reconstruction') }}">{{ __('paleoenvironmental reconstruction') }}</a>
                                     </li>
-                                    <li {{ (Route::currentRouteName() == 'geoarchaeology') ? 'active-link' : ''}}>
+
+                                    <li @class(['active-link' => Route::currentRouteName() == 'geoarchaeology'])>
                                         <a href="{{ LaravelLocalization::localizeUrl('geoarchaeology') }}">{{ __('geoarchaeology') }}</a>
                                     </li>
                                 </ul>
@@ -261,7 +268,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="{{ ((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'finding-sources')) ? 'current dropdown' : 'dropdown' }}">
+                            <li class="{{ ((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'funding-sources')) ? 'current dropdown' : 'dropdown' }}">
                                 <a href="#">{{ __('about us') }}</a>
                                 <ul>
                                     <li class="{{ (Route::currentRouteName() == 'scientific-team') ? 'active-link' : ''}}">
