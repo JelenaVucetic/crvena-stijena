@@ -2,7 +2,6 @@
     <!-- Main Box -->
     <div class="header-lower">
         <div class="auto-container">
-            <h1 style="color: white">{{Route::currentRouteName() }}</h1>
             <ul class="lang-list">
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                     <li class="language-link">

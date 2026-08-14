@@ -124,5 +124,64 @@
     "geoarchaeology-caption-3": "Geoarchaeologists have the important job of dating the deposits within the site. After collecting sediment samples in the field, they analyze them in the lab.",
     "geoarchaeology-caption-4": "The tephrochronology lab at the University of Cambridge is helping date the deposits by analyzing volcanic ashes from ancient eruptions.",
     "petrovici-caption-1": "The old school building in the village has been restored and now houses the student excavators every summer.",
-    "petrovici-caption-2": "We are fortunate to dine in the kafana of Branka Marković every day during the excavation."
+    "petrovici-caption-2": "We are fortunate to dine in the kafana of Branka Marković every day during the excavation.",
+    "about-us-gilbert-title": "Director:",
+    "about-us-gilbert-name": "Dr. Gilbert Tostevin",
+    "about-us-gilbert-description": "Associate Professor <br> Department of Anthropology <br> University of Minnesota <br> Minneapolis, MN, USA <br> toste003@umn.edu",
+
+    "about-us-gilliane-title": "Co-Director:",
+    "about-us-gilliane-name": "Dr. Gilliane Monnier",
+    "about-us-gilliane-description": "Associate Professor <br> Department of Anthropology <br> University of Minnesota <br> Minneapolis, MN, USA <br> monni003@umn.edu",
+
+    "about-us-goran-title": "Co-Director:",
+    "about-us-goran-name": "Mr. Goran Pajovic",
+    "about-us-goran-description": "Curator of Archaeology <br> National Museum <br> Cetinje, Montenegro <br> goran.pajovic11@gmail.com",
+
+    "about-us-mile-title": "Lead Archaeologist:",
+    "about-us-mile-name": "Mr. Mile Bakovic",
+    "about-us-mile-description": "Head, Division of Archaeology <br> Center for Conservation and Archaeology <br> Ministry of Culture <br> Cetinje, Montenegro <br> bakovicmile@yahoo.com",
+
+    "about-us-nikola-title": "Lead Archaeologist:",
+    "about-us-nikola-name": "Mr. Nikola Borovinic",
+    "about-us-nikola-description": "Professional Associate, Division of Archaeology <br> Center for Conservation and Archaeology <br> Ministry of Culture <br> Cetinje, Montenegro <br> nikola_borovinic@yahoo.com",
+
+    "about-us-carolina-title": "Geo-archaeologist:",
+    "about-us-carolina-name": "Dr. Carolina Mallol",
+    "about-us-carolina-description": "Researcher and Lecturer <br> Departamento de Geografía e Historia <br> Universidad de la Laguna <br> Tenerife, Spain <br> cmallol@ull.edu.es",
+
+    "about-us-elisabetta-title": "Radiocarbon dating specialist:",
+    "about-us-elisabetta-name": "Dr. Elisabetta Boaretto",
+    "about-us-elisabetta-description": "Director, Kimmel Center for Archaeological Science <br> Weizmann Institute of Science <br> Rehovot, Israel <br> Elisabetta.Boaretto@weizmann.ac.il",
+
+    "about-us-angel-title": "Archaeomagnetism specialist:",
+    "about-us-angel-name": "Dr. Ángel Carrancho Alonso",
+    "about-us-angel-description": "Assistant Professor <br> Area of Prehistory <br> Dept. of History, Geography and Communication <br> University of Burgos, Spain <br> acarrancho@ubu.es",
+
+    "about-us-eguene-title": "Zooarchaeologist:",
+    "about-us-eguene-name": "Dr. Eugène Morin",
+    "about-us-eguene-description": "Professor <br> Trent University <br> Ontario, Canada <br> eugene.morin@trentu.ca",
+
+    "about-us-paloma-title": "Anthracologist:",
+    "about-us-paloma-name": "Dr. Paloma Vidal Matutano",
+    "about-us-paloma-description": "University of La Laguna <br> Tenerife, Spain",
+
+    "about-us-katarina-title": "Zooarchaeologist (microfauna):",
+    "about-us-katarina-name": "Dr. Katarina Bogićević",
+    "about-us-katarina-description": "Professor <br> Faculty of Mining and Geology <br> University of Belgrade <br> Belgrade, Serbia <br> katarina.bogicevic@rgf.bg.ac.rs",
+
+    "about-us-christine-title": "Cryptotephra Dating specialist:",
+    "about-us-christine-name": "Dr. Christine Lane",
+    "about-us-christine-description": "Professor <br> Department of Geography <br> University of Cambridge <br> United Kingdom <br> Csl44@cam.ac.uk",
+
+    "about-us-marga-title": "Geochemist (paleoenvironmental reconstruction):",
+    "about-us-marga-name": "Dr. Marga Jambrina-Enríquez",
+    "about-us-marga-description": "University of La Laguna <br> Tenerife, Spain",
+
+    "about-us-vasilije-title": "Archaeologist (lithic raw material sources):",
+    "about-us-vasilije-name": "Vasilije Marojevic",
+    "about-us-vasilije-description": "Ph.D. candidate <br> University of Minnesota <br> Minnesota, U.S.A.",
+
+    "about-us-aspen-title": "Geo-archaeologist (cryptotephra & microarchaeology):",
+    "about-us-aspen-name": "Aspen Cooper",
+    "about-us-aspen-description": "Ph.D. candidate <br> University of Minnesota <br> Minnesota, U.S.A."
 }

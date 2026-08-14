@@ -4,8 +4,44 @@
     <!-- Exhibitions Section -->
     <section class="exhibitions-section">
         <div class="auto-container">
-            <div class="sec-title-two text-center">
-                <h2>{{ __("scientific team") }}</h2>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/gilbert-test.png')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-gilbert-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-gilbert-name") !!}</span>
+                                    <p>{!! __("about-us-gilbert-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Gilliane 20210729_104550-min.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-gilliane-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-gilliane-name") !!}</span>
+                                    <p>{!! __("about-us-gilliane-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Exhibition Block -->
@@ -15,42 +51,110 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-column">
-                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                    <div class="image"><img src="{{asset('images/resource/Goran 20210729_104503-min.jpg')}}" alt=""></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-column">
-                                    <h4>Director:</h4>
-                                    <span class="date" style="font-size: 20px">Dr. Gilbert Tostevin</span>
-                                    <p>
-                                        Associate Professor <br>
-                                        Department of Anthropology <br>
-                                        University of Minnesota <br>
-                                        Minneapolis, MN, USA <br>
-                                        toste003@umn.edu
-                                    </p>
+                                    <h4>{!! __("about-us-goran-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-goran-name") !!}</span>
+                                    <p>{!! __("about-us-goran-description") !!}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="image-column col-md-6 col-sm-12 col-xs-12">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-column">
-                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                    <div class="image"><img src="{{asset('images/resource/mile-test.png')}}" alt=""></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-column">
-                                    <h4> Co-Director:</h4>
-                                    <span class="date" style="font-size: 20px">Dr. Gilliane Monnier</span>
-                                    <p>
-                                        Associate Professor <br>
-                                        Department of Anthropology <br>
-                                        University of Minnesota <br>
-                                        Minneapolis, MN, USA <br>
-                                        monni003@umn.edu
-                                    </p>                                </div>
+                                    <h4>{!! __("about-us-mile-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-mile-name") !!}</span>
+                                    <p>{!! __("about-us-mile-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Nikola 20210729_145218-compressed.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-nikola-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-nikola-name") !!}</span>
+                                    <p>{!! __("about-us-nikola-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Carolina Mallol.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-carolina-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-carolina-name") !!}</span>
+                                    <p>{!! __("about-us-carolina-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Elisabetta 20180727_085150-min.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-elisabetta-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-elisabetta-name") !!}</span>
+                                    <p>{!! __("about-us-elisabetta-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Angel Carrancho.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-angel-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-angel-name") !!}</span>
+                                    <p>{!! __("about-us-angel-description") !!}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -69,18 +173,36 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-column">
-                                    <h4>Co-Director:</h4>
-                                    <span class="date" style="font-size: 20px">Mr. Goran Pajovic</span>
-                                    <p>
-                                        Curator of Archaeology<br>
-                                        National Museum<br>
-                                        Cetinje, Montenegro<br>
-                                        monni003@umn.edu<br>
-                                    </p>
+                                    <h4>{!! __("about-us-eguene-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-eguene-name") !!}</span>
+                                    <p>{!! __("about-us-eguene-description") !!}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Katarina Bogicevic official photo.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-katarina-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-katarina-name") !!}</span>
+                                    <p>{!! __("about-us-katarina-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
                     <div class="image-column col-md-6 col-sm-12 col-xs-12">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -90,173 +212,74 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-column">
-                                  {{--  <h4> Co-Director:</h4>
-                                    <span class="date" style="font-size: 20px">Dr. Gilliane Monnier</span>
-                                    <p>
-                                        Associate Professor <br>
-                                        Department of Anthropology <br>
-                                        University of Minnesota <br>
-                                        Minneapolis, MN, USA <br>
-                                        monni003@umn.edu
-                                    </p>    --}}
+                                    <h4>{!! __("about-us-christine-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-christine-name") !!}</span>
+                                    <p>{!! __("about-us-christine-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/gallery/1.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-marga-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-marga-name") !!}</span>
+                                    <p>{!! __("about-us-marga-description") !!}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Exhibition Block -->
+            <div class="exhibition-block">
+                <div class="row clearfix">
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/Vasilije 20190711_144854-compressed.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-vasilije-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-vasilije-name") !!}</span>
+                                    <p>{!! __("about-us-vasilije-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <div class="image"><img src="{{asset('images/resource/AspenCooper-min.jpg')}}" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-column">
+                                    <h4>{!! __("about-us-aspen-title") !!}</h4>
+                                    <span class="date" style="font-size: 20px">{!! __("about-us-aspen-name") !!}</span>
+                                    <p>{!! __("about-us-aspen-description") !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- End Exhibitions Section -->
 
-
-    <!-- Testimonial Section -->
-   {{-- <section class="testimonial-section style-two">
-        <div class="auto-container">
-            <h3>Scientific team</h3>
-            <div class="testimonial-carousel owl-carousel owl-theme">
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Director:
-                            </div>
-                            <span class="designation">Dr. Gilbert Tostevin </span>
-                            <p>
-                                Associate Professor <br>
-                                Department of Anthropology <br>
-                                University of Minnesota <br>
-                                Minneapolis, MN, USA <br>
-                                toste003@umn.edu</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Co-Director:
-                            </div>
-                            <span class="designation">Dr. Gilliane Monnier</span>
-                            <p>
-                                Associate Professor <br>
-                                Department of Anthropology <br>
-                                University of Minnesota <br>
-                                Minneapolis, MN, USA <br>
-                                monni003@umn.edu
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Co-Director:
-                            </div>
-                            <span class="designation">Mr. Goran Pajovic</span>
-                            <p>
-                                Curator of Archaeology<br>
-                                National Museum<br>
-                                Cetinje, Montenegro<br>
-                                monni003@umn.edu<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Lead Archaeologist:
-                            </div>
-                            <span class="designation">Mr. Mile Bakovic</span>
-                            <p>Head, Division of Archaeology<br>
-                                Center for Conservation and Archaeology<br>
-                                Ministry of Culture<br>
-                                Cetinje, Montenegro<br>
-                                bakovicmile@yahoo.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Lead Archaeologist:
-                            </div>
-                            <span class="designation">Mr. Nikola Borovinic</span>
-                            <p>Professional Associate, Division of Archaeology<br>
-                                Center for Conservation and Archaeology<br>
-                                Ministry of Culture<br>
-                                Cetinje, Montenegro<br>
-                                nikola_borovinic@yahoo.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Geo-archaeologist:
-                            </div>
-                            <span class="designation">Dr. Carolina Mallol</span>
-                            <p>Researcher and Lecturer<br>
-                                Departamento de Geografía e Historia<br>
-                                Universidad de la Laguna<br>
-                                Tenerife, Spain<br>
-                                cmallol@ull.edu.es
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{asset('images/resource/thumb-2.jpg')}}" alt=""></figure>
-                        </div>
-                        <div class="content-box">
-                            <div class="name">
-                                Radiocarbon dating specialist:
-                            </div>
-                            <span class="designation">Dr. Elisabetta Boaretto</span>
-                            <p>Researcher and Lecturer<br>
-                                Director, Kimmel Center for Archaeological Science<br>
-                                Weizmann Institute of Science<br>
-                                Rehovot, Israel<br>
-                                Elisabetta.Boaretto@weizmann.ac.il
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--}}
-    <!-- End Testimonial Section -->
 @endsection
