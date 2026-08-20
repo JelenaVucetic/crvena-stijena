@@ -10,8 +10,7 @@
                         <!-- News Block -->
                         <div class="news-block">
                             <div class="inner-box">
-                                <div class="lower-content">
-                                    <div class="post-images">
+                                    <div class="post-images" style="margin-top: 20px">
                                         <div class="row clearfix">
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
                                                 <a href="{{asset("images/resource/Petrovici 2 20190720_121445-compressed.jpg")}}"
@@ -27,7 +26,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>

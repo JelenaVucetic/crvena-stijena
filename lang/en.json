@@ -31,6 +31,7 @@
     "welcome to the site": "Welcome to the site of Crvena Stijena",
     "montenegro": "Montenegro",
     "contact": "Contact",
+    "figure-credit": "Figure credit:",
     "visit-first-paragraph": "Visitors to Crvena Stijena are welcome! If you visit in the summer months, there’s a good chance that you will see our scientific excavations, which take place for six weeks every summer.",
     "visit-second-paragraph": "You will park your car in the parking area above the site, where you have a beautiful view of Lake Bileća. You will then walk down a gravel road (boots or sturdy shoes are recommended) until you reach the rock shelter. As you stand underneath the rock shelter, imagine that people have been taking shelter from the elements in this place for over 80,000 years!",
     "visit-third-paragraph": "You may open the gate and walk down the flagstone path to observe the archaeological deposits all around you. But, please respect the fenced-off areas and padlocked gate as they protect the archaeological deposits.",
@@ -66,15 +67,35 @@
     "paleoenvironmental-reconstruction-paragraph-five": "Finally, biomolecules have recently been able to give us valuable information about paleoenvironments. Organic chemists are able to extract plant waxes preserved in sediments, and on the basis of their molecular structure, infer whether they came from grasses versus deciduous trees (grasses tend to indicate cold, dry environments whereas trees indicate warmer, wetter environments). Furthermore, by quantifying the types of carbon and hydrogen isotopes in these molecules, the chemists can infer whether they were most likely deposited during a climatically wet versus dry regime.",
     "geoarchaeology-paragraph-one": "The science of geoarchaeology is responsible for clarifying two fundamentally interrelated concepts: first, the chronology of the site, and second, how it formed. It is an essential component of any Paleolithic excavation, as it is easy for archaeologists to make mistakes when interpreting the archaeological record, thinking it represents human behavior, when in fact it has been altered by physical, chemical, or biological processes which have affected the site and changed the patterning of the remains of human activities. Controlling for site formation processes is equally important in establishing the chronology of the site, which is usually based upon objects (such as charcoal, bones, stone tools) to which radiometric dating techniques have been applied. When establishing a chronology, it is absolutely essential to ensure that each of these objects is in its original context and has not moved as a result of erosion, rodent activity, nor been altered by other factors.",
     "books-paragraph-one": "R. Whallon, (editor), Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro. Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017.",
-    "journal-articles-paragraph-one": "E. Frahm§, D. Adler, B. Gasparyan, B. Luo, C. Mallol, G. Pajović, G. Tostevin, G. Yeritsyan, G. Monnier§, 2022. Every contact leaves a trace : Documenting contamination in lithic residue studies at the Middle Paleolithic sites of Lusakert Cave 1 (Armenia) and Crvena Stijena (Montenegro). PLoS ONE 17(4):e0266362.",
-    "journal-articles-paragraph-two": "G. Monnier, G. Tostevin, G. Pajović, N. Borovinić, M. Baković, 2020. Nova istraživanja paleolitskog nalazišta Crvena Stijena, istorijski kontekst. Istorijski Zapisi, godina XCIII, 1-2/2020:71-108.",
-    "journal-articles-paragraph-three": "D. Jones, G. Monnier, A. Cooper, M. Baković, G. Pajović, N. Borovinić, and G. Tostevin, 2021. Applying high-throughput rRNA gene sequencing to assess microbial contamination of a 40-year-old exposed archaeological profile. Journal of Archaeological Science, 126 (2021) 105308. ",
-    "journal-articles-paragraph-four": "B. Bradák, Á. Carrancho Alonso, Á. Herrejon Lagunilla, J. J. Villalain Santamaria, G. Monnier, G. Tostevin, C. Mallol, G. Pajović, M. Baković and N. Borovinić, 2021. Magnetic fabric of anthropogenic ash horizons in a cave sediment succession (Crvena Stijena site, Montenegro).  Geophysical Journal International 224:795-812.",
-    "journal-articles-paragraph-five": "G. Lambrecht, C. Rodríguez de Vera, M. Jambrina-Enríquez, I. Crevecoeur, J. Gonzalez-Urquijo, T. Lazuen, G. Monnier, G. Pajovic, G. Tostevin, C. Mallol, 2021. Characterisation of charred organic matter in micromorphological thin sections by means of Raman spectroscopy. Archaeological and Anthropological Sciences (2021) 13:13",
+    "journal-articles-paragraph-one-before": "E. Frahm§, D. Adler, B. Gasparyan, B. Luo, C. Mallol, G. Pajović, G. Tostevin, G. Yeritsyan, G. Monnier§, 2022. ",
+    "journal-articles-paragraph-one-title": "Every contact leaves a trace: Documenting contamination in lithic residue studies at the Middle Paleolithic sites of Lusakert Cave 1 (Armenia) and Crvena Stijena (Montenegro)",
+    "journal-articles-paragraph-one-after": ". PLoS ONE 17(4):e0266362.",
+
+    "journal-articles-paragraph-two-before": "G. Monnier, G. Tostevin, G. Pajović, N. Borovinić, M. Baković, 2020. ",
+    "journal-articles-paragraph-two-title": "Nova istraživanja paleolitskog nalazišta Crvena Stijena, istorijski kontekst",
+    "journal-articles-paragraph-two-after": ". Istorijski Zapisi, godina XCIII, 1-2/2020:71-108.",
+
+    "journal-articles-paragraph-three-before": "D. Jones, G. Monnier, A. Cooper, M. Baković, G. Pajović, N. Borovinić, and G. Tostevin, 2021. ",
+    "journal-articles-paragraph-three-title": "Applying high-throughput rRNA gene sequencing to assess microbial contamination of a 40-year-old exposed archaeological profile",
+    "journal-articles-paragraph-three-after": ". Journal of Archaeological Science, 126 (2021) 105308.",
+
+    "journal-articles-paragraph-four": "B. Bradák, Á. Carrancho Alonso, Á. Herrejon Lagunilla, J. J. Villalain Santamaria, G. Monnier, G. Tostevin, C. Mallol, G. Pajović, M. Baković and N. Borovinić, 2021. Magnetic fabric of anthropogenic ash horizons in a cave sediment succession (Crvena Stijena site, Montenegro). Geophysical Journal International 224:795-812.",
+
+    "journal-articles-paragraph-five-before": "G. Lambrecht, C. Rodríguez de Vera, M. Jambrina-Enríquez, I. Crevecoeur, J. Gonzalez-Urquijo, T. Lazuen, G. Monnier, G. Pajovic, G. Tostevin, C. Mallol, 2021. ",
+    "journal-articles-paragraph-five-title": "Characterisation of charred organic matter in micromorphological thin sections by means of Raman spectroscopy",
+    "journal-articles-paragraph-five-after": ". Archaeological and Anthropological Sciences (2021) 13:13.",
+
     "journal-articles-paragraph-six": "C. Rodríguez de Vera, A.V. Herrera-Herrera, M. Jambrina-Enríquez, S. Sossa-Ríos, J. González-Urquijo, T. Lazuen, M. Vanlandeghem, C. Alix, G. Monnier, G. Pajovic, G. Tostevin, and C. Mallol, 2020. Micro-contextual identification of archaeological lipid biomarkers using resin-impregnated sediment slabs. Scientific Reports 10:20574.",
-    "journal-articles-paragraph-seven": "M. Jambrina-Enríquez, Herrera-Herrera, A.V., de Vera, C.R., Leierer, L., Connolly, R. and Mallol, C., 2019. n-Alkyl nitriles and compound-specific carbon isotope analysis of lipid combustion residues from Neanderthal and experimental hearths: identifying sources of organic compounds and combustion temperatures. Quaternary Science Reviews, 222, p.105899.",
-    "journal-articles-paragraph-eight": "M. Baković, Mihailović, B., Mihailović, D., Morley, M., Vušović-lučić, Z., Whallon, R., & Woodward, J. (2009). Crvena Stijena excavations 2004-2006, preliminary report. Eurasian Prehistory, 6(1–2), 3–31.",
-    "journal-articles-paragraph-nine": "R. Whallon, (editor), Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro. Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017.",
+
+    "journal-articles-paragraph-seven-before": "M. Jambrina-Enríquez, Herrera-Herrera, A.V., de Vera, C.R., Leierer, L., Connolly, R. and Mallol, C., 2019. ",
+    "journal-articles-paragraph-seven-title": "n-Alkyl nitriles and compound-specific carbon isotope analysis of lipid combustion residues from Neanderthal and experimental hearths: identifying sources of organic compounds and combustion temperatures",
+    "journal-articles-paragraph-seven-after": ". Quaternary Science Reviews, 222, p.105899.",
+
+    "journal-articles-paragraph-eight": "M. Baković, Mihailović, B., Mihailović, D., Morley, M., Vušović-Lučić, Z., Whallon, R., & Woodward, J. (2009). Crvena Stijena excavations 2004-2006, preliminary report. Eurasian Prehistory, 6(1–2), 3–31.",
+
+    "journal-articles-paragraph-nine-before": "R. Whallon, (editor), ",
+    "journal-articles-paragraph-nine-title": "Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro",
+    "journal-articles-paragraph-nine-after": ". Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017.",
     "monastery-kosijerovo-paragraph-one": "The church dedicated to the birth of the Mother of God, which is part of the Kosijerevo monastery, was built during the 14th century. During a Turkish invasion, the monastery was destroyed in 1807, but was rebuilt ten years later. The monastery was moved from its original location, together with the church, in 1966, when an artificial lake was created on the river Trebišnjica. Church was transferred to the village Petrovići. The Kosijerevo Monastery occupies an important place in the local community where people gather during many Orthodox holidays.",
     "national-museum-of-montengro-paragraph-one": "Excavations at Crvena Stijena are under the auspices of the National Museum of Montenegro. Founded in 1926, the National Museum in fact consists of ten museums highlighting the history, art, culture, and peoples of Montenegro. The beginnings of the museum go back to 1838. As a national and complex institution, it developed and transformed until the present moment. The National Museum of Montenegro is a museum of a systematic and complex type consisting of several organizational units: the Historical Museum, which includes a permanent exhibition in the Government House, the Museum of King Nikola, the Museum of Peter II Petrovic Njegos, Njegoš 'birthplace, Njegoš' mausoleum in Lovćen mountain, the mausoleum of Bishop Danilo - Orlov Krš and Relief of Montenegro; Art Museum with the Gallery of Contemporary Art \"Miodrag Dado Đurić\" and Atelier DADO; Ethnographic Museum and the newly established Archaeological Museum with Lapidarium. Museums are located in buildings that are cultural and historical monuments of the greatest importance. The Government House building, built in 1910 in the neo-Renaissance style, is today the administrative seat of the National Museum, which houses the permanent exhibitions of the Historical and Art Museum. All units of the National Museum of Montenegro (except Njegoš's birthplace and the Mausoleum on Lovćen) are located in the historic center of Cetinje.",
     "funding-paragraph-one": "Since 2018, excavations at Crvena Stijena have been funded by the U.S. National Science Foundation Grant BCS-1758285, the Ministry of Culture of Montenegro, and the Academy of Sciences of Montenegro.",
@@ -104,7 +125,8 @@
     "archaeological-excavations-caption-6": "In the evenings, students work in the lab, sorting, washing, and curating artifacts.",
     "finds-caption-1": "It is exciting to hold, in your hand, a stone point made and used by Neanderthals 50,000 years ago!",
     "finds-caption-2": "Every artifact is stored permanently with a paper tag that documents its precise position (in X, Y, and Z dimensions) in the site, along with its geological layer, number within the square, and date it was found. The bar code helps it to be quickly looked up in the computer database that stores the same information.",
-    "goals-caption-1": "In order to answer these questions to attain our goals, the first step is documenting the chronostratigraphy. This figure shows a recent reconstruction of the chronostratigraphy at the site. (Figure credit: Robert Whallon and Eugène Morin, “Eleven Years of Research at Crvena Stijena: Synthesis of the Results,” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro (Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017), 450–55. Figure 19.1)",
+    "goals-caption-1": "Da bismo odgovorili na ova pitanja i postigli svoje ciljeve, prvi korak je dokumentovanje hronostratigrafije. Ova slika prikazuje nedavnu rekonstrukciju hronostratigrafije na lokalitetu.",
+    "goals-credit-1": "Robert Whallon and Eugène Morin, “Eleven Years of Research at Crvena Stijena: Synthesis of the Results,” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro (Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017), 450–55. Figure 19.1.",
     "documentaton-of-site-caption-1": "A Total Station is used in order to record the exact location, in 3 dimensions, of every artifact larger than 2 cm. in size. Smaller artifacts’ proveniences are recorded by bucket.",
     "documentaton-of-site-caption-2": "Important documentation of all of the artifacts is carried out in the lab every evening, after excavation.",
     "neanderthal-fire-use-caption-1": "Neanderthal Fire Use 1: This photo of the stratigraphy shows alternating black (charcoal) and white (ash) layers, that accumulated 60,000 years ago as Neanderthals repeatedly mad ncampfires in the same spot.",
@@ -112,13 +134,28 @@
     "neanderthal-fire-use-caption-3": "In the lab, Paloma is able to identify wood species and degree of alteration by studying charcoal under the microscope.",
     "neanderthal-fire-use-caption-4": "Geophysicist Angel Carrancho removes cores of sediment from an archaeological profile in order to study the magnetic properties of the sediment, which give us important information about their exposure to fire.",
     "neanderthal-fire-use-caption-5": "The cryogenic magnetometer in Angel Carrancho’s lab can measure very subtle magnetic properties in sediments and rocks.",
+
     "neanderthal-lithic-technology-caption-1": "Many different types of stone tools and chips are found every day during the excavations.",
-    "neanderthal-lithic-technology-caption-2": "Neanderthals shaped stone tools into many different types of scrapers, knives, and points (Figure credit: Dušan Mihailović, Bojana Mihailović, and Robert Whallon, “Excavations of Middle Paleolithic - Mesolithic Layers,” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro, ed. Robert Whallon (Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017), 150–204. Figure 10.5)",
-    "neanderthal-lithic-technology-caption-3": "Geoarchaeologists document rock outcrops on the landscape that may have been utilized by people in the past as sources of raw material for their tools. (Figure credit: Goran Ćulafić, “Sources of Lithic Raw Materials near Crvena Stijena,” in Crvena Stijena in Cultural and Ecological Context (Podgorica: Montenegrin Academy of Sciences and Arts, 2017), 257–65. Figure 13.2)",
-    "hunt-caption-1": "A large percentage of the animal bones found at the site bear butchery marks made by stone tools. Figure credit: Eugène Morin and Marie Cécile Soulier, “The Paleolithic Faunal Remains from Crvena Stijena,” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro, ed. Robert Whallon (Podgorica: : Multidisciplinary Archaeological Research in Montenegro, 2017), 266–94. Figure 14.8)",
-    "paleoenvironmental-caption-1": "Identification of wood species by the anthracologist enables us to reconstruct what types of trees were growing on the landscape at the time (Figure credit: Goran Ćulafić, “Ecological Context: The Surroundings of Crvena Stijena. Paleoenvironmental Reconstruction” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro, ed. Robert Whallon (Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017), 28-44. Figure 4.2)",
-    "paleoenvironmental-caption-2": "The bones of small mammals (‘microfauna’) which became incorporated in the archaeological layers give us important information about the vironment at the time the layer was formed.",
+
+    "neanderthal-lithic-technology-caption-2": "Neanderthals shaped stone tools into many different types of scrapers, knives, and points.",
+
+    "neanderthal-lithic-technology-caption-3": "Geoarchaeologists document rock outcrops on the landscape that may have been utilized by people in the past as sources of raw material for their tools.",
+
+    "neanderthal-lithic-technology-credit-1": "Dušan Mihailović, Bojana Mihailović, and Robert Whallon, “Excavations of Middle Paleolithic - Mesolithic Layers,” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro, ed. Robert Whallon (Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017), 150–204. Figure 10.5.",
+
+    "neanderthal-lithic-technology-credit-2": "Goran Ćulafić, “Sources of Lithic Raw Materials near Crvena Stijena,” in Crvena Stijena in Cultural and Ecological Context (Podgorica: Montenegrin Academy of Sciences and Arts, 2017), 257–65. Figure 13.2.",
+
+    "hunt-caption-1": "A large percentage of the animal bones found at the site bear butchery marks made by stone tools.",
+
+    "hunt-caption-2-before": "Photograph by Neanderthal-Museum, Mettmann, distributed under a ",
+    "hunt-caption-2-license": "CC-BY 2.0 license",
+    "hunting-and-meat-consumption-credit-2": "Eugène Morin and Marie Cécile Soulier, “The Paleolithic Faunal Remains from Crvena Stijena,” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro, ed. Robert Whallon (Podgorica: Multidisciplinary Archaeological Research in Montenegro, 2017), 266–94. Figure 14.8.",
+    "hunt-caption-2-after": ".",
+    "paleoenvironmental-caption-1": "Identification of wood species by the anthracologist enables us to reconstruct what types of trees were growing on the landscape at the time",
+    "paleoenvironmental-caption-2": "The bones of small mammals (‘microfauna’) which became incorporated in the archaeological layers give us important information about the environment at the time the layer was formed.",
     "paleoenvironmental-caption-3": "Katarina Bogićević (here shown speaking with Gil Tostevin) is the principal microfaunal analyst for the project.",
+    "paleoenvironmental-credit-1": "Goran Ćulafić, “Ecological Context: The Surroundings of Crvena Stijena. Paleoenvironmental Reconstruction” in Crvena Stijena in Cultural and Ecological Context: Multidisciplinary Archaeological Research in Montenegro, ed. Robert Whallon (Podgorica: Montenegrin Academy of Sciences and Arts and National Museum of Montenegro, 2017), 28–44. Figure 4.2.",
+
     "geoarchaeology-caption-1": "Geoarchaeology begins in the field, when specially trained archaeologists study the stratigraphy to document how the site formed.",
     "geoarchaeology-caption-2": "In the lab, geoarchaeologists study the microstratigraphy of the site.",
     "geoarchaeology-caption-3": "Geoarchaeologists have the important job of dating the deposits within the site. After collecting sediment samples in the field, they analyze them in the lab.",
@@ -173,9 +210,9 @@
     "about-us-christine-name": "Dr. Christine Lane",
     "about-us-christine-description": "Professor <br> Department of Geography <br> University of Cambridge <br> United Kingdom <br> Csl44@cam.ac.uk",
 
-    "about-us-marga-title": "Geochemist (paleoenvironmental reconstruction):",
+    "about-us-marga-title": "Assistant Professor: Area of Petrology and Geochemistry",
     "about-us-marga-name": "Dr. Marga Jambrina-Enríquez",
-    "about-us-marga-description": "University of La Laguna <br> Tenerife, Spain",
+    "about-us-marga-description": "Dept. of Animal Biology, Soil Science and Geology <br> University of La Laguna, Spain",
 
     "about-us-vasilije-title": "Archaeologist (lithic raw material sources):",
     "about-us-vasilije-name": "Vasilije Marojevic",
