@@ -5,12 +5,10 @@
         <div class="auto-container">
             <div class="row clearfix">
 
-                <div class="content-side
-                            col-lg-8 col-lg-offset-2
-                            col-md-8 col-md-offset-2
-                            col-sm-12 col-xs-12">
+                <div class="content-side col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                    <div class="event-detail">
+
+                <div class="event-detail">
                         <div class="event-block-two">
                             <div class="inner-box">
                                 <div class="lower-content">

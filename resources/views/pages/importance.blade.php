@@ -5,7 +5,7 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <!--Content Side-->
-                <div class="content-side col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                <div class="content-side col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="blog-detail">
                         <!-- News Block -->
                         <div class="news-block">
@@ -17,7 +17,7 @@
                                         <div class="row clearfix">
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
                                                 <a href="{{asset("images/resource/importance-3.jpg")}}"
-                                                   class="lightbox-image" data-fancybox="Gallery"><img style=" max-height: 448px;object-fit: cover;"
+                                                   class="lightbox-image" data-fancybox="Gallery"><img style=" max-height: 685px;object-fit: cover;"
                                                                                                        src="{{asset("images/resource/importance-3.jpg")}}" alt=" "></a>
                                             </div>
                                             <div class="image col-md-6 col-sm-6 col-xs-12">
