@@ -29,7 +29,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->from(config('mail.contact_to'))
+        return $this->from(config('mail.from.address'))
             ->subject('New Contact Form Message')
             ->view('contact_email');
     }

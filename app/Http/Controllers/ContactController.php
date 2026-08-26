@@ -11,7 +11,7 @@ class ContactController extends Controller
 {
     public function send(ContactRequest $request)
     {
-        Mail::to(config('mail.from.address'))->send(new ContactMail($request->validated()));
+        Mail::to(config('mail.contact_to'))->send(new ContactMail($request->validated()));
         return redirect()->back()->with(['success' => 'Contact Form Submit Successfully']);
     }
 }
