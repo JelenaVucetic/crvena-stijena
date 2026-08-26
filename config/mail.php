@@ -91,9 +91,11 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-replay@crvenastijena.me'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
+
+    'contact_to' => env('MAIL_TO_ADDRESS'),
 
     /*
     |--------------------------------------------------------------------------
