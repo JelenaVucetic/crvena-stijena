@@ -46,7 +46,7 @@
                                                         </a>
 
                                                         <p class="caption">
-                                                            {{ __('documentaton-of-site-caption-2') }}
+                                                            {{ __('documentaton-of-site-caption-1') }}
                                                         </p>
                                                     </div>
 

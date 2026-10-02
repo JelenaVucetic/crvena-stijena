@@ -52,13 +52,13 @@
 
                                                     <!-- Image 2 -->
                                                     <div class="image col-md-6 col-sm-6 col-xs-12">
-                                                        <a href="{{ asset('images/resource/Age of Site Dangoor Lab2-min.jpg') }}"
+                                                        <a href="{{ asset('images/resource/Age of Site stratigraphy.jpg') }}"
                                                            class="lightbox-image"
                                                            data-fancybox="Gallery">
 
                                                             <img
                                                                 class="img-responsive center-block"
-                                                                src="{{ asset('images/resource/Age of Site Dangoor Lab2-min.jpg') }}"
+                                                                src="{{ asset('images/resource/Age of Site stratigraphy.jpg') }}"
                                                                 alt="">
                                                         </a>
 
