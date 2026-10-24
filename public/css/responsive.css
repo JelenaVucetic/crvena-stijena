@@ -295,6 +295,14 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.team-role {
+		padding-top: 10px;
+	}
+
+	.exhibition-block {
+		margin-bottom: 0px;
+	}
+	
 	.sidebar-image {
 		margin-top: 5px;
 	}

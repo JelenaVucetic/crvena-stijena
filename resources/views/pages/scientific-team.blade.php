@@ -342,7 +342,7 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner-column">
 
-                                            <h4>
+                                            <h4 class="team-role">
                                                 {{ $member['role'] }}
                                             </h4>
 
