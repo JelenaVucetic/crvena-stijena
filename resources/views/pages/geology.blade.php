@@ -33,14 +33,12 @@
                                                    data-fancybox="Gallery">
 
                                                     <img
-                                                    style="  max-height: 850px;object-fit: cover;"
+                                                    style="  max-height: 915px;object-fit: cover;"
                                                         src="{{ asset('images/resource/Geology 2 20190614_100333-min.jpg') }}"
                                                         alt="">
                                                 </a>
 
-                                                <p class="caption">
-                                                    {{ __('geology-caption-1') }}
-                                                </p>
+                                             
                                             </div>
 
                                             <!-- Image 2 -->
@@ -69,6 +67,9 @@
                                                         src="{{ asset('images/resource/Geology 3 Profile thru rocks Fig 7_4.jpg') }}"
                                                         alt="">
                                                 </a>
+                                                   <p class="caption">
+                                                    {{ __('geology-caption-1') }}
+                                                </p>
                                             </div>
 
                                         </div>
