@@ -25,7 +25,7 @@
                                 'Number4 DSC09641_editedRsz.jpg',
                                 'Number5 DSC00513_editedRsz.jpg',
                                 'Number6 DSC_8828.JPG',
-                                'Number7  20190712_154117.jpg',
+                                'Number7 20190712_154117.jpg',
                                 'Number8 DSC01186_editedRsz2.jpg',
                                 'Number9 DSC06208_editedRsz.jpg',
                                 'Number10 DSC07086_editedRsz.jpg',
@@ -51,23 +51,26 @@
                                     </ol>
 
                                     <!-- Slides -->
+                                    <!-- Slides -->
                                     <div class="carousel-inner" role="listbox">
 
                                         @foreach($slides as $index => $slide)
 
-                                        <div class="item {{ $index === 0 ? 'active' : '' }}"
-                                            style="height: 70vh; overflow: hidden;">
+                                        <div class="item {{ $index === 0 ? 'active' : '' }}">
 
+                                            <!-- Blurred Background -->
+                                            <div
+                                                class="slide-background"
+                                                style="background-image: url('{{ asset('images/slideshow/' . $slide) }}');">
+                                            </div>
+
+                                            <!-- Sharp Foreground Image -->
                                             <img
                                                 src="{{ asset('images/slideshow/' . $slide) }}"
                                                 alt="Crvena Stijena"
                                                 class="img-responsive center-block"
-                                                style="
-                                                            width: 100%;
-                                                            height: 70vh;
-                                                            object-fit: cover;
-                                                            object-position: center;
-                                                        ">
+                                                loading="eager">
+
                                         </div>
 
                                         @endforeach

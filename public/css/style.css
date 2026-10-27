@@ -6015,3 +6015,55 @@ img {
     line-height: 15px !important;
     padding-top: 10px;
 }
+
+#homeCarousel .carousel-inner {
+    height: 70vh;
+    overflow: hidden;
+}
+
+#homeCarousel .carousel-inner>.item {
+    height: 70vh;
+    overflow: hidden;
+}
+
+/* IMPORTANT: Preserve Bootstrap carousel transitions */
+#homeCarousel .carousel-inner>.next,
+#homeCarousel .carousel-inner>.prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Blurred background */
+#homeCarousel .slide-background {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    width: calc(100% + 50px);
+    height: calc(100% + 50px);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(15px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Sharp foreground image */
+#homeCarousel .carousel-inner>.item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+    object-fit: contain;
+    display: block;
+
+    margin: 0;
+    z-index: 1;
+}
