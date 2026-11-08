@@ -2677,7 +2677,7 @@ img {
     width: 100%;
     max-height: 220px;
     object-fit: cover;
-    object-position: center 20%;
+    object-position: center 12%;
     /*  -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;

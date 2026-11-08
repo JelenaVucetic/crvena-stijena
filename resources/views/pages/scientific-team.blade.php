@@ -38,7 +38,7 @@
                     Minneapolis, MN, USA<br>
                     <a href="mailto:monni003@umn.edu">monni003@umn.edu</a>
                 ',
-                'image' => 'Gilliane 20210729_104550.jpg',
+                'image' => 'Gilliane at CS.jpg',
             ],
 
             /*
@@ -277,7 +277,7 @@
                     University of Belgrade<br>
                     Belgrade, Serbia
                 ',
-                'image' => null,
+                'image' => 'Aleksandra.jpg',
             ],
 
             [
@@ -288,7 +288,7 @@
                     University of Minnesota<br>
                     Minnesota, U.S.A.
                 ',
-                'image' => null,
+                'image' => 'Leanne.jpg',
             ],
 
         ];

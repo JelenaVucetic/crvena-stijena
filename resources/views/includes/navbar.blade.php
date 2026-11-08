@@ -142,9 +142,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="{{ ((Route::currentRouteName() == 'contact')) ? 'current' : '' }}">
+                              <!--   <li class="{{ ((Route::currentRouteName() == 'contact')) ? 'current' : '' }}">
                                     <a href="{{ LaravelLocalization::localizeUrl('contact') }}">{{ __('contact') }}</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
 
@@ -281,9 +281,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="{{ ((Route::currentRouteName() == 'contact')) ? 'current' : '' }}">
+                         <!--    <li class="{{ ((Route::currentRouteName() == 'contact')) ? 'current' : '' }}">
                                 <a href="{{ LaravelLocalization::localizeUrl('contact') }}">{{ __('contact') }}</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </nav><!-- Main Menu End-->

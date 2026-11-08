@@ -18,7 +18,7 @@
                         <div class="inner-box">
                             <div class="lower-content">
                                 <p>{{ __('archaeological-excavations-paragraph-one') }}</p>
-                                <p>{{ __('archaeological-excavations-read-more') }}</p>
+                             <!--    <p>{{ __('archaeological-excavations-read-more') }}</p> -->
                                 <p>{{ __('archaeological-excavations-paragraph-two') }}</p>
                                 <p>{{ __('archaeological-excavations-paragraph-three') }}</p>
 

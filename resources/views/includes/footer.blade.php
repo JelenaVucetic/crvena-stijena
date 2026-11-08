@@ -98,12 +98,12 @@
                                     </a>
                                 </li>
 
-                                <li style="margin: 0; padding: 0;">
+                              <!--   <li style="margin: 0; padding: 0;">
                                     <a href="{{ LaravelLocalization::localizeUrl('contact') }}"
                                        style="padding: 0;">
                                         {{ __('contact') }}
                                     </a>
-                                </li>
+                                </li> -->
 
                             </ul>
                         </div>

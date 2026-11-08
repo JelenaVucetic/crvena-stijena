@@ -55,7 +55,7 @@
         @elseif((Route::currentRouteName() == 'scientific-team') || (Route::currentRouteName() == 'national-museum') || (Route::currentRouteName() == 'funding-sources'))
         @include('includes.header-about-us')
         @else
-        @include('includes.header-contact')
+      <!--   @include('includes.header-contact') -->
         @endif
 
         @yield('content')
